@@ -1,0 +1,16 @@
+In the registration page, if the password does not match, an error message is displayed. Check the spelling for matching.
+
+In the registration page, also display the validation error to user(eg, if the entered password is 5 characters, show an message to enter a password of six characters)
+
+In the registration page also implement a file upload option to get the profile picture of the user. 
+
+In the login page, if the user credentials are incorrect, show an error message
+
+Improve the UI and make it more attractive
+
+Make a profile section in the home page, display the user image along with the details that gathered from registration page.
+
+Use an edit option to edit the details and then save option to save those changes.
+
+Implement a delete option to permanently delete the account of user
+If the user has multiple attempts in answering questions , display their previous attempts score along with the current score
