@@ -8,10 +8,13 @@ import Login from './Components/Login';
 import Register from './Components/Register';
 import UserProfile from './Components/UserProfile';
 import { New } from './Components/New';
-
+import EditProfile from './Components/EditProfile';
+import Intro from './Components/Intro';
+import CustomThemeProvider from './Components/Theme';
 
 function App () {
   return (
+    <CustomThemeProvider>
     <Router>
       <Container maxWidth="sm">
         <Box textAlign='center' mt={15}>
@@ -24,11 +27,13 @@ function App () {
             <Route path='/questions/:id' element={<Questions />} />
             <Route path='/score/:id' element={<FinalScore />} />
             <Route path='/user-profile/:id' element={<UserProfile />} />
+            <Route path='/editprofile/:id' element={<EditProfile />} />
+            <Route path='/intro/:id' element={<Intro />} />
           </Routes>
         </Box>
       </Container>
     </Router>
-
+</CustomThemeProvider>
   );
 }
 
